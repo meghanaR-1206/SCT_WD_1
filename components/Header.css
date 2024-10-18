@@ -1,0 +1,38 @@
+
+#main-header {
+    width: 100vw;
+    min-height: 10vh;
+    background-color: #f9e08b;
+    position: fixed;
+    padding: 2px 35px;
+    display: flex;
+    justify-content: space-between; 
+    margin:-0.5%;
+    z-index: 50;
+}
+
+#icon img {
+    height: 10vh; 
+    width: auto;
+    margin-left: 0; 
+    flex-shrink: 0; 
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1; 
+    align-items: center;
+}
+
+.page {
+    margin-right: 10px;
+    flex-shrink: 0;
+    color:#22552b;
+    font-family: "Nunito Sans", Sans-serif;
+    letter-spacing:0.25px;
+    font-size:15px;
+    font-weight:800;
+    cursor: pointer;
+}
+

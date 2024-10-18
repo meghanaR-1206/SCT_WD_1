@@ -1,0 +1,39 @@
+.container-contacts{
+    width:100vw;
+    height:75vh;
+    background-color:rgba(252, 185, 0, 1);
+    margin-top:80px;
+    padding:3%;
+    display:flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-img img{
+    height:80px;
+
+}
+.big{
+    height:100%;
+    width:90%;
+    
+    display:flex;
+    justify-content: space-around;
+    font-family:"Nunito Sans", Sans-serif;
+}
+.left-contact{
+    height:100%;
+    width:30%;
+    
+    display: flex;
+    flex-direction: column;
+}
+.right-contact{
+    height:100%;
+    width:30%;
+    
+    display: flex;
+    flex-direction: column;
+    
+}

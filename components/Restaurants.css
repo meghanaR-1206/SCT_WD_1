@@ -1,0 +1,48 @@
+#entire {
+    padding: 20px;
+  }
+  
+  .menu-options,
+  .type-options {
+    margin-bottom: 20px;
+  }
+  
+  .menu-options button,
+  .type-options button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center; /* Ensures the icon and text are aligned */
+  }
+  
+  .menu-options button:hover,
+  .type-options button:hover {
+    background-color: #ccc;
+  }
+  
+  .category-icon {
+    width: 30px; /* Adjust the size of the category icon */
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .dishes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .dish-item {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .dish-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  

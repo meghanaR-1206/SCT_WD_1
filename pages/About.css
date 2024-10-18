@@ -1,0 +1,60 @@
+#heading-about{
+    font-weight:600;
+    font-size: 50px;
+    word-spacing: 10px;
+    font-family:"Nunito Sans", Sans-serif;
+    margin-top:100px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
+#about-container{
+    
+    height:fit-content;
+    width:60vw;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:150px;
+}
+.about-img img{
+    width: 100%;
+    margin-top: 30px;
+}
+#second{
+    font-size: 30px;
+    font-family:"Nunito Sans", Sans-serif;
+    font-weight:350;
+}
+#third{
+    font-size: 20px;
+    font-family:"Nunito Sans", Sans-serif;
+    font-weight:normal;
+}
+.person{
+    
+    display:flex;
+    font-family:"Nunito Sans", Sans-serif;
+    justify-content: space-between;
+}
+.name{
+    font-size:40px;
+}
+.image-person {
+   
+    height:900px;
+    width:40%;
+
+}
+.image-person img{
+    height:70%;
+    width:100%;
+}
+.textual{
+    width:50%;
+}
+.person-info{
+    font-size: 25px;
+}

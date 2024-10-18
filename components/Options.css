@@ -1,0 +1,127 @@
+#entire {
+    padding: 20px;
+  }
+  
+  .menu-options,
+  .type-options {
+    margin-bottom: 20px;
+  }
+  
+  .menu-options button,
+  .type-options button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-options button:hover,
+  .type-options button:hover {
+    background-color: #ccc;
+  }
+  
+  .dishes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .dish-item {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .dish-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  #entire {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .menu-options {
+    display: flex;
+    justify-content: center; /* Centers the categories horizontally */
+    gap: 20px; /* Adds space between category buttons */
+    margin-bottom: 30px;
+  }
+  
+  .menu-options button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column; /* Stacks image and text vertically */
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-options button:hover {
+    background-color: #ddd; /* Hover effect for the category buttons */
+  }
+  
+  .category-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Makes category icons circular */
+    margin-bottom: 5px;
+  }
+  
+  .type-options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .type-options button {
+    background-color: #f8f8f8;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .type-options button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .dishes-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center the dishes */
+  }
+  
+  .dish-item {
+    text-align: center;
+    width: 150px; /* Sets a fixed width for each dish item */
+  }
+  
+  .dish-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes dish images circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .dish-item img:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+  }
+  
+  .dish-item p {
+    font-size: 20px;
+    color: #333;
+  }
+  .dish-item p:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+  }

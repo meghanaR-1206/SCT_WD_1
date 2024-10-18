@@ -1,0 +1,61 @@
+#heading-image-text{
+    width:100vw;
+    height:100vh;
+    /* position: relative; */
+    overflow: hidden;
+}
+#heading-image-text img{
+    width:100vw;
+    height:100vh;
+    /* position:absolute; */
+    object-fit: cover; 
+    filter: blur(6px);
+    z-index: -2;
+    margin-top:100px;
+}
+#text{
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:-60vh;
+    z-index: 20;
+    color:WHITE;
+    position:relative;
+    width:70vw;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+#menu-heading{
+    font-size: 80px;
+    font-family: "Nunito Sans"," Sans-serif";
+    font-weight: 600;
+}
+#menu-sub-heading{
+    font-size: 43px;
+    font-weight: 600;
+    font-family: "Nunito Sans"," Sans-serif";
+}
+.menu-pics {
+    width: 35vw; /* Set a fixed width (or any width you prefer) */
+    height: 90vh; /* Define the height */
+    overflow-y: auto; /* Allow horizontal scrolling */
+    white-space: nowrap; /* Ensure the images remain in a single row */
+    display: flex; /* Flexbox ensures all images stay in a row */
+    flex-direction: column;
+    margin-left:auto;
+    margin-right:auto;
+    overflow-x:hidden;
+    margin-bottom: 150px;
+  }
+  
+  .menu-pics img {
+    margin-bottom: 2%;
+    width:100%;
+    height: 100%;
+    margin-right: 10px; /* Adds spacing between images */
+    object-fit: cover; /* Ensures image fits without distortion */
+  }
+  
